@@ -1,5 +1,6 @@
 Student Registration API (Backend)
-This is a backend API for a student registration system built with Node.js and Express.js. It supports user authentication using JWT (JSON Web Tokens), profile management, and file upload features using Multer middleware.
+This is a backend API for a student registration system built with Node.js and Express.js.
+It supports user authentication using JWT (JSON Web Tokens), profile management, and file upload features using Multer middleware.
 
 Features
 Student Registration: Allows new users to register.
@@ -16,21 +17,13 @@ Ensure you have the following installed:
 Node.js (v12 or higher)
 MongoDB (Local or MongoDB Atlas)
 Installation
-Clone the repository:
+npm init
 
-bash
-
-git clone https://github.com/your-repo/student-registration-api.git
-cd student-registration-api
-Install dependencies:
-
-bash
-Copy code
-npm install
+npm install all packages
 Create a .env file in the root directory and add the following environment variables:
 
 bash
-Copy code
+
 MONGO_URI="myurlfor mongodb"
 PORT=5000
 JWT_SECRET="mysecretkey" 
