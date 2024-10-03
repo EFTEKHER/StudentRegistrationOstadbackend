@@ -229,7 +229,7 @@ You can use **Postman** or any other API client to test the endpoints. Ensure th
 
 ## **License**
 
-This project is licensed under **https://eftekheralieftecom.vercel.app**.
+This project is licensed under **https://eftekheraliefte.vercel.app**.
 
 ---
 
