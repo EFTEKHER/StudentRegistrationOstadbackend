@@ -44,9 +44,9 @@ Ensure you have the following installed:
 
 4. **Create a `.env` file** in the root directory and add the following environment variables:
     ```bash
-    MONGO_URI="mongodb://localhost:27017/studentRegistration"  # Replace with your MongoDB URI
+    MONGO_URI="mymongodburl"  # Replace with your MongoDB URI
     PORT=5000
-    JWT_SECRET="your_jwt_secret_key"  # Replace with your JWT secret key
+    JWT_SECRET="my_jwt_secret_key"  # Replace with your JWT secret key
     ```
 
 5. **Ensure MongoDB is running**:
