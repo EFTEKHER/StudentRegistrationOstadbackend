@@ -204,3 +204,32 @@ student-registration-api/
 ├── app.js                       # Main application entry point
 ├── package.json                 # Project metadata and dependencies
 └── README.md                    # Project documentation
+
+
+---
+
+## **Dependencies**
+
+- **Express.js**: Web framework for Node.js.
+- **Mongoose**: MongoDB object modeling for Node.js.
+- **jsonwebtoken**: For generating and verifying JWT tokens.
+- **Multer**: Middleware for handling file uploads.
+- **dotenv**: Loads environment variables from `.env` file.
+- **cookie-parser**: For parsing cookies.
+
+---
+
+## **Running Tests**
+
+You can use **Postman** or any other API client to test the endpoints. Ensure that:
+- You send the JWT token in cookies for protected routes.
+- You use `multipart/form-data` for file uploads.
+
+---
+
+## **License**
+
+This project is licensed under **https://eftekheralieftecom.vercel.app**.
+
+---
+
